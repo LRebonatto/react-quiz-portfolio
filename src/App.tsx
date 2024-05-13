@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header py-4">
         <h1>
           Lista de Quizzes
         </h1>

@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit"
 import { RootState } from "../../app/store"
-import { get, getDatabase, ref, onValue, DataSnapshot } from "firebase/database"
+import { getDatabase, ref, onValue, DataSnapshot } from "firebase/database"
 import { initializeApp } from "firebase/app"
 import { firebaseConfig } from "../../utils/firebase-connection"
 
